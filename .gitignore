@@ -1,0 +1,18 @@
+# Python / venv / cache
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Salidas de RL / binarios grandes
+runs/
+optuna.db
+models/*.zip
+*.pth
+*.pt
+*.onnx
+
+# IDE
+.vscode/
+.idea/
